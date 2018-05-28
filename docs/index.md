@@ -20,12 +20,10 @@ If you can't find what you are looking for, we'd love to hear from you either on
 ## Technical Specs
 
  * Built on top of [Apache Calcite](http://calcite.apache.org/) and [Apache Flink](http://flink.apache.org/)
+ * Managed with [YARN](https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html) cluster
  * [LevelDB](https://github.com/google/leveldb) as persistent storage
 
 We published a [blog post](https://eng.uber.com/athenax) to describe the design and architecture of AthenaX.
-
-## Quick Start
-See [running a docker all in one image](getting_started.md#all-in-one-docker-image).
 
 ## Related links
 - [Introducing AthenaX, Uber Engineering’s Open Source Streaming Analytics Platform](https://eng.uber.com/athenax/)
